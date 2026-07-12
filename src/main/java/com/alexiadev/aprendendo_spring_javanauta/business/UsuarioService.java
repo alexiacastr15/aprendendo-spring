@@ -5,12 +5,8 @@ import com.alexiadev.aprendendo_spring_javanauta.infrastructure.exceptions.Confl
 import com.alexiadev.aprendendo_spring_javanauta.infrastructure.exceptions.ResourceNotFoundException;
 import com.alexiadev.aprendendo_spring_javanauta.infrastructure.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
-import org.apache.commons.lang3.concurrent.ConcurrentException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import java.net.PasswordAuthentication;
 
 @Service
 @RequiredArgsConstructor
