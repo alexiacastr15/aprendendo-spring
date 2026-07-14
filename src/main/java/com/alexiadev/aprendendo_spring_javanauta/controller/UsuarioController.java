@@ -21,6 +21,8 @@ public class UsuarioController {
     private final AuthenticationManager authenticationManager;
     private final JwtUtil jwtUtil;
 
+
+
     @PostMapping //create
     public ResponseEntity<Usuario> salvaUsuario(@RequestBody Usuario usuario) {
         return ResponseEntity.ok(usuarioService.salvaUsuario(usuario));
